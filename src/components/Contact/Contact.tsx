@@ -35,15 +35,16 @@ export default function Contact() {
               best to get back to you!
             </p>
             <p className="flex items-center transition-all duration-300 hover:pl-3">
-              <EmailIcon className="mr-3 h-5 w-5" />
-              <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=liubynets.nataliia@gmail.com&su=Connect%20Request&body=Hi%2C%20Nataliia%21"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                liubynets.nataliia@gmail.com
-              </a>
-            </p>
+  <EmailIcon className="mr-3 h-5 w-5" />
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=murilorosa08@gmail.com&su=Job%20Opportunity&body=Hi%20Murilo%2C%20I%20came%20across%20your%20portfolio%20and%20would%20love%20to%20discuss%20potential%20opportunities."
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    murilorosa08@gmail.com
+  </a>
+</p>
+
           </div>
           <Form />
         </div>

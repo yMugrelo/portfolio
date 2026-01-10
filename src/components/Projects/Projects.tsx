@@ -1,7 +1,10 @@
-import { projectsData } from "../../constants";
 import Project from "./Project";
+import { projectsData } from "../../constants";
 
 export default function Projects() {
+  // Pega apenas o primeiro projeto da lista
+  const project = projectsData[0];
+
   return (
     <section
       className="bg-primary-white px-4 py-5 sm:px-6 sm:py-10 md:px-15 md:py-20 xl:px-28"
@@ -11,10 +14,10 @@ export default function Projects() {
         <span className="pr-2 md:pr-4">My</span>
         <span className="font-extrabold">Projects</span>
       </h2>
-      <div className="grid gap-3 md:gap-10 lg:grid-cols-2 lg:gap-15 xl:gap-30">
-        {projectsData.map((project) => {
-          return <Project key={project.number} project={project} />;
-        })}
+
+      <div className="grid gap-3 md:gap-10 lg:grid-cols-1 lg:gap-15 xl:gap-30">
+        {/* Apenas 1 projeto */}
+        <Project project={project} />
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import girl from "../../assets/girl.svg";
+import hero from "../../assets/about-me.svg";
 import { useCursorHover } from "../../hooks/useCursorHover";
 import { motion } from "motion/react";
 
@@ -10,7 +10,7 @@ export default function AboutMe() {
       id="about"
     >
       <div className="flex-center lg:w-1/2">
-        <img src={girl} alt="girl illustration" />
+        <img src={hero} alt="girl illustration" />
       </div>
       <div className="lg:w-1/2">
         <h3 className="text-primary-white mb-10 text-[28px]/[114%] tracking-tight lg:text-5xl/[117%]">
@@ -28,15 +28,16 @@ export default function AboutMe() {
             transition={{ duration: 1, type: "spring" }}
             viewport={{ once: true }}
           >
-            I am a highly motivated and detail-oriented Entry-Level Front-End
-            Developer with a strong passion for building modern and responsive
-            web applications. My foundation is built on core technologies like
-            HTML, CSS, JavaScript (ES6+), and React. Through a series of
-            hands-on projects, I have developed a solid understanding of
-            component-based architecture, seamless API integration, and creating
-            user-friendly interfaces. My eagerness to contribute to a
-            collaborative team and grow within a dynamic development environment
-            drives me to consistently expand my skill set.
+            I am a highly motivated and detail-oriented aspiring ML/AI Engineer
+             with a strong passion for designing intelligent systems and building scalable,
+              real-world machine learning solutions. My foundation is built on Python,
+               data structures, machine learning algorithms, and modern AI frameworks.
+                Through hands-on projects, I have developed solid expertise in model development,
+                 data pipelines, API integration, and deploying reliable AI-driven applications.
+                  Driven by curiosity, discipline, and a relentless pursuit of excellence,
+                   I aim not only to grow within high-performance engineering teams,
+                    but to stand out by delivering impactful,
+             production-ready AI systems that solve complex problems.
           </motion.p>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -44,15 +45,13 @@ export default function AboutMe() {
             transition={{ duration: 2, type: "spring" }}
             viewport={{ once: true }}
           >
-            My technical expertise is complemented by practical experience with
-            tools and libraries essential for modern development. I am
-            proficient in state management with Redux Toolkit, testing with Jest
-            and React Testing Library, and version control using Git and GitHub.
-            I am also familiar with full-stack technologies such as Node.js and
-            MongoDB, which allows me to understand both the front-end and
-            back-end aspects of a project. My formal training, including courses
-            from Academind and the EPAM UpSkill Program, has provided me with a
-            comprehensive understanding of industry best practices.
+            My technical background includes hands-on experience with the main tools used in modern machine learning development. I work with Python and commonly use libraries such as NumPy, Pandas, and Scikit-learn, with growing experience in TensorFlow and PyTorch. I have developed projects involving data preprocessing, model training and evaluation, and basic model integration into applications through APIs.
+  
+
+I also have practical knowledge of Git, Docker,
+  and fundamental MLOps concepts such as experiment tracking,
+   model versioning, and simple deployment workflows. Through focused online courses and consistent project-based learning, I have built a solid understanding of industry best practices and how to develop reliable machine learning solutions.
+    I am motivated to continue growing technically while contributing effectively to a professional engineering team.
           </motion.p>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -60,13 +59,11 @@ export default function AboutMe() {
             transition={{ duration: 3, type: "spring" }}
             viewport={{ once: true }}
           >
-            Beyond my technical skills, I am a committed problem-solver with a
-            strong analytical mindset, honed during my academic studies. I have
-            applied this disciplined approach to my projects, such as QuickQuiz
-            AI, a responsive application that leverages Gemini AI, and the
-            Ukrify Chrome Extension, which enhances productivity for bilingual
-            users. These projects demonstrate my ability to translate complex
-            ideas into functional, clean, and intuitive digital products.
+           Beyond my technical skills, I am a committed problem-solver with a strong analytical mindset developed through my academic background and practical project work. I apply this structured approach to building machine learning solutions, focusing on transforming data and complex requirements into reliable and efficient models.
+
+In projects such as an AI-powered recommendation system and an intelligent content analysis application, I worked with data preprocessing, model training, evaluation,
+ and API-based integration into user-facing applications. These experiences reflect my ability to translate complex ideas into functional,
+ well-structured, and practical AI-driven solutions that deliver real value.
           </motion.p>
         </article>
       </div>

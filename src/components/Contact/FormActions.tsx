@@ -1,7 +1,6 @@
 import SocialCard from "../Hero/SocialCard";
 import FacebookIcon from "../../assets/social/facebook.svg?react";
 import LinkedinIcon from "../../assets/social/linkedin.svg?react";
-import DiscordIcon from "../../assets/social/discord.svg?react";
 import GitHubIcon from "../../assets/social/github.svg?react";
 
 export default function FormActions({ clicked }: { clicked: boolean }) {
@@ -15,18 +14,16 @@ export default function FormActions({ clicked }: { clicked: boolean }) {
         {clicked ? "Sending..." : "Get In Touch"}
       </button>
       <div className="flex gap-3 md:justify-evenly md:gap-5">
-        <SocialCard path="https://www.linkedin.com/in/nataliia-luibynets/">
+        <SocialCard path="https://www.linkedin.com/in/murilo-rosa-de-paula-b802a0279/">
           <LinkedinIcon className="group-hover:fill-primary-white h-5 w-5" />
         </SocialCard>
-        <SocialCard path="https://inttolong.github.io/Resume/">
+        <SocialCard path="https://github.com/yMugrelo">
           <FacebookIcon className="group-hover:fill-primary-white h-5 w-5" />
         </SocialCard>
-        <SocialCard path="https://github.com/IntToLong/">
+        <SocialCard path="https://github.com/yMugrelo">
           <GitHubIcon className="group-hover:fill-primary-white h-5 w-5" />
         </SocialCard>
-        <SocialCard path="https://discord.com/users/831960537923453008">
-          <DiscordIcon className="group-hover:fill-primary-white h-5 w-5" />
-        </SocialCard>
+        
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
-import CssIcon from "../../assets/skills/css.svg?react";
+import Sql from "../../assets/skills/sql-database-sql-azure-svgrepo-com.svg?react";
 import GitIcon from "../../assets/skills/git.svg?react";
-import HtmlIcon from "../../assets/skills/html.svg?react";
-import JavaScriptIcon from "../../assets/skills/javascript.svg?react";
-import JestIcon from "../../assets/skills/jest.svg?react";
-import NextJsIcon from "../../assets/skills/nextjs.svg?react";
-import ReactIcon from "../../assets/skills/react.svg?react";
-import ReduxIcon from "../../assets/skills/redux.svg?react";
-import TailwindCssIcon from "../../assets/skills/tailwindcss.svg?react";
-import TypeScriptIcon from "../../assets/skills/typescript.svg?react";
+import Python from "../../assets/skills/python-svgrepo-com.svg?react";
+import Machine from "../../assets/skills/machine-learning-model-svgrepo-com.svg?react";
+import Tensor from "../../assets/skills/tensorflow-svgrepo-com.svg?react";
+import Datav from "../../assets/skills/chart-mixed-svgrepo-com.svg?react";
+import CiCd from "../../assets/skills/ci-cd-svgrepo-com.svg?react";
+import AI from "../../assets/skills/ai-svgrepo-com.svg?react";
+import Docker from "../../assets/skills/docker-svgrepo-com.svg?react";
+import Pipeline from "../../assets/skills/pipeline-svgrepo-com.svg?react";
 import SkillCard from "./SkillCard";
 
 export default function Skills() {
@@ -21,32 +21,32 @@ export default function Skills() {
         <span className="font-extrabold">Skills</span>
       </h2>
       <ul className="grid grid-cols-2 justify-items-center gap-5 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-12 xl:grid-cols-5">
-        <SkillCard title="HTML5">
-          <HtmlIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="Python">
+          <Python className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="CSS3">
-          <CssIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="SQL">
+          <Sql className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="JavaScript">
-          <JavaScriptIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="Machine Learning">
+          <Machine className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="TypeScript">
-          <TypeScriptIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="Pipelines">
+          <Pipeline className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="React">
-          <ReactIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="Ci/Cd">
+          <CiCd className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="Redux">
-          <ReduxIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="AI">
+          <AI className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="Next JS">
-          <NextJsIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="Data Visualization">
+          <Datav className="group-hover:fill-primary-white" />
         </SkillCard>
-        <SkillCard title="Tailwind">
-          <TailwindCssIcon className="group-hover:fill-primary-white group-hover:stroke-primary-white" />
+        <SkillCard title="Docker">
+          <Docker className="group-hover:fill-primary-white group-hover:stroke-primary-white" />
         </SkillCard>
-        <SkillCard title="Jest">
-          <JestIcon className="group-hover:fill-primary-white" />
+        <SkillCard title="TensorFlow">
+          <Tensor className="group-hover:fill-primary-white" />
         </SkillCard>
         <SkillCard title="GIT">
           <GitIcon className="group-hover:fill-primary-white" />
