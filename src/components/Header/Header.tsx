@@ -18,6 +18,7 @@ export default function Header() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   return (
     <header
       className={`bg-primary-white z-10 flex justify-between px-5 py-6 md:items-center md:px-20 lg:px-[112px] ${
@@ -34,9 +35,10 @@ export default function Header() {
       ) : (
         <>
           <Logo color="black" />
-          <BurgerMenu onclick={() => setIsMenuOpen(true)} />
+          <BurgerMenu onClick={() => setIsMenuOpen(true)} />
         </>
       )}
+
       <NavBar isMenuOpen={isMenuOpen} closeMenu={() => setIsMenuOpen(false)} />
       <ResumeLink isMenuOpen={isMenuOpen} />
     </header>

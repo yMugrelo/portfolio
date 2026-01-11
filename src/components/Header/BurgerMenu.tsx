@@ -1,9 +1,18 @@
-import menuIcon from "../../assets/menu.svg";
+// src/components/Header/BurgerMenu.tsx
+type BurgerMenuProps = {
+  onClick: () => void; // prop obrigatória
+};
 
-export default function BurgerMenu({ onclick }: { onclick: () => void }) {
+export default function BurgerMenu({ onClick }: BurgerMenuProps) {
   return (
-    <button onClick={onclick} className="md:hidden">
-      <img src={menuIcon} alt="open menu icon" />
+    <button
+      onClick={onClick}
+      className="flex flex-col gap-1 p-2 md:hidden"
+      aria-label="Open menu"
+    >
+      <span className="block w-6 h-0.5 bg-black"></span>
+      <span className="block w-6 h-0.5 bg-black"></span>
+      <span className="block w-6 h-0.5 bg-black"></span>
     </button>
   );
 }

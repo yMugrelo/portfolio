@@ -1,12 +1,14 @@
-import MyLogo from "../../assets/logo.svg?react";
+// src/components/Header/Logo.tsx
+type LogoProps = {
+  color?: "black" | "white"; // você pode limitar as cores para Tailwind
+};
 
-export default function Logo() {
+export default function Logo({ color = "black" }: LogoProps) {
+  const colorClass = color === "black" ? "text-black" : "text-white";
+
   return (
-    <div
-      className="flex-center cursor-pointer transition-all duration-300 ease-in hover:scale-125"
-      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-    >
-      <MyLogo className="w-14 h-14" />
+    <div className={`${colorClass} font-bold text-xl`}>
+      MyLogo
     </div>
   );
 }
