@@ -1,6 +1,4 @@
-# Frontend Developer Portfolio 
-
-<img width="1920" height="919" alt="promo" src="https://github.com/user-attachments/assets/3c6723e8-0a50-4948-bbfc-7c7993ce965f" />
+# Frontend Developer 
 
 ## About This Project
 
