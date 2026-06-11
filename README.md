@@ -44,7 +44,7 @@ You need to have **Node.js** (which includes npm) installed on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/IntToLong/portfolio.git
+    git clone https://github.com/yMugrelo/portfolio
     cd portfolio
     ```
 
